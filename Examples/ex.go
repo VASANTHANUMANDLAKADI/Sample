@@ -1,11 +1,17 @@
-package examples
+package main
 import "fmt"
 
-func examples() {
-		var a int
+func main() {
+		var a,b int
+		
 
-		fmt.Println("Enter a number")
+		fmt.Println("Enter a value")
 		fmt.Scan(&a)
 
-		
+		fmt.Println("Enter b value")
+		fmt.Scan(&b)
+
+		sum := a + b
+
+		fmt.Println("sum is:",sum)
 }
